@@ -1,0 +1,65 @@
+C:\Users\kozak\source\repos\ListaZakupow\ListaZakupow\ListaZakupow\bin\Debug\netstandard2.0\ListaZakupow.deps.json
+C:\Users\kozak\source\repos\ListaZakupow\ListaZakupow\ListaZakupow\bin\Debug\netstandard2.0\ListaZakupow.dll
+C:\Users\kozak\source\repos\ListaZakupow\ListaZakupow\ListaZakupow\bin\Debug\netstandard2.0\ref\ListaZakupow.dll
+C:\Users\kozak\source\repos\ListaZakupow\ListaZakupow\ListaZakupow\bin\Debug\netstandard2.0\ListaZakupow.pdb
+C:\Users\kozak\source\repos\ListaZakupow\ListaZakupow\ListaZakupow\obj\Debug\netstandard2.0\ListaZakupow.csproj.AssemblyReference.cache
+C:\Users\kozak\source\repos\ListaZakupow\ListaZakupow\ListaZakupow\obj\Debug\netstandard2.0\ListaZakupow.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kozak\source\repos\ListaZakupow\ListaZakupow\ListaZakupow\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\kozak\source\repos\ListaZakupow\ListaZakupow\ListaZakupow\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\kozak\source\repos\ListaZakupow\ListaZakupow\ListaZakupow\obj\Debug\netstandard2.0\ListaZakupow.AssemblyInfoInputs.cache
+C:\Users\kozak\source\repos\ListaZakupow\ListaZakupow\ListaZakupow\obj\Debug\netstandard2.0\ListaZakupow.AssemblyInfo.cs
+C:\Users\kozak\source\repos\ListaZakupow\ListaZakupow\ListaZakupow\obj\Debug\netstandard2.0\ListaZakupow.csproj.CoreCompileInputs.cache
+C:\Users\kozak\source\repos\ListaZakupow\ListaZakupow\ListaZakupow\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\kozak\source\repos\ListaZakupow\ListaZakupow\ListaZakupow\obj\Debug\netstandard2.0\ListaZakupow.dll
+C:\Users\kozak\source\repos\ListaZakupow\ListaZakupow\ListaZakupow\obj\Debug\netstandard2.0\ref\ListaZakupow.dll
+C:\Users\kozak\source\repos\ListaZakupow\ListaZakupow\ListaZakupow\obj\Debug\netstandard2.0\ListaZakupow.pdb
+C:\Users\kozak\source\repos\ListaZakupow\ListaZakupow\ListaZakupow\obj\Debug\netstandard2.0\AddProducts_Page.xaml.g.cs
+C:\Users\kozak\source\repos\ListaZakupow\ListaZakupow\ListaZakupow\obj\Debug\netstandard2.0\FlyoutMenuPage.xaml.g.cs
+C:\Users\kozak\source\repos\ListaZakupow\ListaZakupow\ListaZakupow\obj\Debug\netstandard2.0\MyNavigationPage.xaml.g.cs
+C:\Users\kozak\source\repos\ListaZakupow\ListaZakupow\ListaZakupow\obj\Debug\netstandard2.0\NewList_Page.xaml.g.cs
+C:\Users\kozak\source\repos\ListaZakupow\ListaZakupow\ListaZakupow\obj\Debug\netstandard2.0\ProductsList_Page.xaml.g.cs
+C:\Users\kozak\source\repos\ListaZakupow\ListaZakupow\ListaZakupow\obj\Debug\netstandard2.0\PromotionsPage.xaml.g.cs
+C:\Users\kozak\OneDrive\Pulpit\Nowy folder (3)\ListaZakupow\ListaZakupow\ListaZakupow\obj\Debug\netstandard2.0\ListaZakupow.csproj.AssemblyReference.cache
+C:\Users\kozak\OneDrive\Pulpit\Nowy folder (3)\ListaZakupow\ListaZakupow\ListaZakupow\obj\Debug\netstandard2.0\ListaZakupow.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kozak\OneDrive\Pulpit\Nowy folder (3)\ListaZakupow\ListaZakupow\ListaZakupow\obj\Debug\netstandard2.0\AddProducts_Page.xaml.g.cs
+C:\Users\kozak\OneDrive\Pulpit\Nowy folder (3)\ListaZakupow\ListaZakupow\ListaZakupow\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\kozak\OneDrive\Pulpit\Nowy folder (3)\ListaZakupow\ListaZakupow\ListaZakupow\obj\Debug\netstandard2.0\FlyoutMenuPage.xaml.g.cs
+C:\Users\kozak\OneDrive\Pulpit\Nowy folder (3)\ListaZakupow\ListaZakupow\ListaZakupow\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\kozak\OneDrive\Pulpit\Nowy folder (3)\ListaZakupow\ListaZakupow\ListaZakupow\obj\Debug\netstandard2.0\MyNavigationPage.xaml.g.cs
+C:\Users\kozak\OneDrive\Pulpit\Nowy folder (3)\ListaZakupow\ListaZakupow\ListaZakupow\obj\Debug\netstandard2.0\NewList_Page.xaml.g.cs
+C:\Users\kozak\OneDrive\Pulpit\Nowy folder (3)\ListaZakupow\ListaZakupow\ListaZakupow\obj\Debug\netstandard2.0\ProductsList_Page.xaml.g.cs
+C:\Users\kozak\OneDrive\Pulpit\Nowy folder (3)\ListaZakupow\ListaZakupow\ListaZakupow\obj\Debug\netstandard2.0\PromotionsPage.xaml.g.cs
+C:\Users\kozak\OneDrive\Pulpit\Nowy folder (3)\ListaZakupow\ListaZakupow\ListaZakupow\obj\Debug\netstandard2.0\ListaZakupow.AssemblyInfoInputs.cache
+C:\Users\kozak\OneDrive\Pulpit\Nowy folder (3)\ListaZakupow\ListaZakupow\ListaZakupow\obj\Debug\netstandard2.0\ListaZakupow.AssemblyInfo.cs
+C:\Users\kozak\OneDrive\Pulpit\Nowy folder (3)\ListaZakupow\ListaZakupow\ListaZakupow\obj\Debug\netstandard2.0\ListaZakupow.csproj.CoreCompileInputs.cache
+C:\Users\kozak\OneDrive\Pulpit\Nowy folder (3)\ListaZakupow\ListaZakupow\ListaZakupow\obj\Debug\netstandard2.0\ListaZakupow.dll
+C:\Users\kozak\OneDrive\Pulpit\Nowy folder (3)\ListaZakupow\ListaZakupow\ListaZakupow\obj\Debug\netstandard2.0\ref\ListaZakupow.dll
+C:\Users\kozak\OneDrive\Pulpit\Nowy folder (3)\ListaZakupow\ListaZakupow\ListaZakupow\obj\Debug\netstandard2.0\ListaZakupow.pdb
+C:\Users\kozak\OneDrive\Pulpit\Nowy folder (3)\ListaZakupow\ListaZakupow\ListaZakupow\bin\Debug\netstandard2.0\ListaZakupow.deps.json
+C:\Users\kozak\OneDrive\Pulpit\Nowy folder (3)\ListaZakupow\ListaZakupow\ListaZakupow\bin\Debug\netstandard2.0\ListaZakupow.dll
+C:\Users\kozak\OneDrive\Pulpit\Nowy folder (3)\ListaZakupow\ListaZakupow\ListaZakupow\bin\Debug\netstandard2.0\ref\ListaZakupow.dll
+C:\Users\kozak\OneDrive\Pulpit\Nowy folder (3)\ListaZakupow\ListaZakupow\ListaZakupow\bin\Debug\netstandard2.0\ListaZakupow.pdb
+C:\Users\kozak\OneDrive\Pulpit\Nowy folder (3)\ListaZakupow\ListaZakupow\ListaZakupow\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\Admin\Desktop\Nowy folder (3)\ListaZakupow\ListaZakupow\ListaZakupow\bin\Debug\netstandard2.0\ListaZakupow.deps.json
+C:\Users\Admin\Desktop\Nowy folder (3)\ListaZakupow\ListaZakupow\ListaZakupow\bin\Debug\netstandard2.0\ListaZakupow.dll
+C:\Users\Admin\Desktop\Nowy folder (3)\ListaZakupow\ListaZakupow\ListaZakupow\bin\Debug\netstandard2.0\ref\ListaZakupow.dll
+C:\Users\Admin\Desktop\Nowy folder (3)\ListaZakupow\ListaZakupow\ListaZakupow\bin\Debug\netstandard2.0\ListaZakupow.pdb
+C:\Users\Admin\Desktop\Nowy folder (3)\ListaZakupow\ListaZakupow\ListaZakupow\obj\Debug\netstandard2.0\ListaZakupow.csproj.AssemblyReference.cache
+C:\Users\Admin\Desktop\Nowy folder (3)\ListaZakupow\ListaZakupow\ListaZakupow\obj\Debug\netstandard2.0\ListaZakupow.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\Desktop\Nowy folder (3)\ListaZakupow\ListaZakupow\ListaZakupow\obj\Debug\netstandard2.0\AddProducts_Page.xaml.g.cs
+C:\Users\Admin\Desktop\Nowy folder (3)\ListaZakupow\ListaZakupow\ListaZakupow\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\Admin\Desktop\Nowy folder (3)\ListaZakupow\ListaZakupow\ListaZakupow\obj\Debug\netstandard2.0\FlyoutMenuPage.xaml.g.cs
+C:\Users\Admin\Desktop\Nowy folder (3)\ListaZakupow\ListaZakupow\ListaZakupow\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\Admin\Desktop\Nowy folder (3)\ListaZakupow\ListaZakupow\ListaZakupow\obj\Debug\netstandard2.0\MyNavigationPage.xaml.g.cs
+C:\Users\Admin\Desktop\Nowy folder (3)\ListaZakupow\ListaZakupow\ListaZakupow\obj\Debug\netstandard2.0\NewList_Page.xaml.g.cs
+C:\Users\Admin\Desktop\Nowy folder (3)\ListaZakupow\ListaZakupow\ListaZakupow\obj\Debug\netstandard2.0\ProductsList_Page.xaml.g.cs
+C:\Users\Admin\Desktop\Nowy folder (3)\ListaZakupow\ListaZakupow\ListaZakupow\obj\Debug\netstandard2.0\PromotionsPage.xaml.g.cs
+C:\Users\Admin\Desktop\Nowy folder (3)\ListaZakupow\ListaZakupow\ListaZakupow\obj\Debug\netstandard2.0\ListaZakupow.AssemblyInfoInputs.cache
+C:\Users\Admin\Desktop\Nowy folder (3)\ListaZakupow\ListaZakupow\ListaZakupow\obj\Debug\netstandard2.0\ListaZakupow.AssemblyInfo.cs
+C:\Users\Admin\Desktop\Nowy folder (3)\ListaZakupow\ListaZakupow\ListaZakupow\obj\Debug\netstandard2.0\ListaZakupow.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\Nowy folder (3)\ListaZakupow\ListaZakupow\ListaZakupow\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\Admin\Desktop\Nowy folder (3)\ListaZakupow\ListaZakupow\ListaZakupow\obj\Debug\netstandard2.0\ListaZakupow.dll
+C:\Users\Admin\Desktop\Nowy folder (3)\ListaZakupow\ListaZakupow\ListaZakupow\obj\Debug\netstandard2.0\ref\ListaZakupow.dll
+C:\Users\Admin\Desktop\Nowy folder (3)\ListaZakupow\ListaZakupow\ListaZakupow\obj\Debug\netstandard2.0\ListaZakupow.pdb
+C:\Users\Admin\Desktop\Nowy folder (3)\ListaZakupow\ListaZakupow\ListaZakupow\obj\Debug\netstandard2.0\DisplayPromotionPage.xaml.g.cs
+C:\Users\kozak\OneDrive\Pulpit\Nowy folder (3)\ListaZakupow\ListaZakupow\ListaZakupow\obj\Debug\netstandard2.0\DisplayPromotionPage.xaml.g.cs

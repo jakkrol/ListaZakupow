@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:model="clr-namespace:ListaZakupow.Models"
+             x:Class="ListaZakupow.MainPage"
+             xmlns:local="clr-namespace:ListaZakupow"
+             Title="Twoje Listy"
+             >
+
+    <StackLayout BackgroundColor="#2a2a2a" Orientation="Vertical" VerticalOptions="Fill">
+        
+            <ListView x:Name="List" 
+                      HeightRequest="5000"
+                      ItemTapped="List_ItemTapped" 
+                      HasUnevenRows="True"
+                      BackgroundColor="#525252"
+                      VerticalOptions="FillAndExpand"
+                      >
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                    
+                        <ViewCell Height="100">
+                        
+                        <StackLayout Orientation="Vertical" HeightRequest="100">
+                            
+                            <StackLayout Orientation="Horizontal">
+                                <Label Text="{Binding listName}" FontSize="26"/>
+                                <Label Text="{Binding CheckedItems}" FontSize="24"/>
+                                <Label Text="/" FontSize="24"/>
+                                <Label Text="{Binding ProductList.Count}" FontSize="24"/>
+                                <Button Text="Usuń listę"
+                                Clicked="Button_Clicked"
+                                CommandParameter="{Binding .}"/>
+                               
+                            </StackLayout>
+                            <ProgressBar x:Name="Progress" ProgressColor="YellowGreen" Progress="{Binding Progress}"/>
+                        </StackLayout>
+
+                    </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+        
+        <AbsoluteLayout>
+            <Button x:Name="AddList" BackgroundColor="Blue" Text="+" FontSize="30" TextColor="White" CornerRadius="180" AbsoluteLayout.LayoutBounds="300, 400" HeightRequest="50" WidthRequest="50" Clicked="AddList_Clicked"></Button>
+        </AbsoluteLayout>
+  
+    </StackLayout>
+</ContentPage>

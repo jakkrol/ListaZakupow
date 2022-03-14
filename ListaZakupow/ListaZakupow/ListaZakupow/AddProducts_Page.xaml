@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ListaZakupow.AddProducts_Page"
+             Title="Dodaj Produkty"
+             >
+    <ContentPage.Content>
+        
+        <StackLayout BackgroundColor="LightGray">
+            <StackLayout BackgroundColor="YellowGreen" InputTransparent="False">
+                <Entry x:Name="Add_my_product" FontSize="20" Margin="10, 0" TextColor="Black"></Entry>
+                <Button x:Name="AddNewProduct" BackgroundColor="Gray" Text="Dodaj własny produkt" TextColor="DeepSkyBlue" FontSize="15" Clicked="AddNewProduct_Clicked"></Button>
+
+            </StackLayout>
+            <ListView x:Name="AllList" 
+                      ItemsSource="{Binding AllProductList}"
+                      ItemTapped="AllList_ItemTapped"
+                      >
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <StackLayout Orientation="Horizontal">
+                                <Label Text="{Binding nazwa}"/>
+                               
+                            </StackLayout>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+
+
+
+            
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
