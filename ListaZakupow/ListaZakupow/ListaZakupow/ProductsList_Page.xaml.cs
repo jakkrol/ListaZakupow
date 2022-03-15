@@ -8,6 +8,7 @@ using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 using ListaZakupow.Models;
 using System.Collections.ObjectModel;
+using Newtonsoft.Json;
 
 namespace ListaZakupow
 {
@@ -27,6 +28,7 @@ namespace ListaZakupow
         }
         protected override void OnAppearing()
         {
+
             ProductList.ItemsSource = null;
             ProductList.ItemsSource = list.ProductList;
             list.CheckedItems = 0;

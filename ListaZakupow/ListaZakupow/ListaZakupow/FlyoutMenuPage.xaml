@@ -11,6 +11,7 @@
                 <x:Array Type="{x:Type local:FlyoutItemPage}">
                     <local:FlyoutItemPage Title="Listy" TargetPage="{x:Type local:MainPage}"/>
                     <local:FlyoutItemPage Title="Promocje" TargetPage="{x:Type local:PromotionsPage}"/>
+                    <local:FlyoutItemPage Title="Kosz" TargetPage="{x:Type local:TrashcanPage}"/>
                 </x:Array>
             </ListView.ItemsSource>
             <ListView.ItemTemplate>

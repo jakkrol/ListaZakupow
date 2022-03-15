@@ -17,17 +17,16 @@ namespace ListaZakupow
     public partial class MainPage : ContentPage
     {
         
-        public static ObservableCollection<ListObject> mainList = new ObservableCollection<ListObject>();
+        public static ObservableCollection<ListObject> mainList { get; set; } = new ObservableCollection<ListObject>();
 
         public MainPage()
         {
             InitializeComponent();
             if (Application.Current.Properties.ContainsKey("myList"))
             {
-                Console.WriteLine(Application.Current.Properties["myList"]);
                 string jsonValue = Application.Current.Properties["myList"] as string;
-/*                Console.WriteLine("test");
-                Console.WriteLine(jsonValue);*/
+                //Console.WriteLine("test");
+                //Console.WriteLine(jsonValue);
                 mainList = JsonConvert.DeserializeObject<ObservableCollection<ListObject>>(jsonValue);
                 
 
@@ -55,6 +54,9 @@ namespace ListaZakupow
             Application.Current.Properties.Remove("myList");
             Application.Current.Properties.Add("myList", jsonValueToSave);
             Application.Current.SavePropertiesAsync();
+            Console.WriteLine("test");
+            Console.WriteLine(Application.Current.Properties["myList"]);
+
 
             List.ItemsSource = null;
             List.ItemsSource = mainList;
@@ -73,13 +75,25 @@ namespace ListaZakupow
         {
             var senderBindingContext = ((Button)sender).BindingContext;
             var dataItem = (ListObject)senderBindingContext;
-            
+
             //list.ProductList.Add(new Products { nazwa = dataItem.nazwa, ilosc = 1 });
+            TrashcanPage.trashList.Add(dataItem);
+   
+            string jsonToSave = JsonConvert.SerializeObject(TrashcanPage.trashList);
+            Application.Current.Properties.Remove("myTrashList");
+            Application.Current.Properties.Add("myTrashList", jsonToSave);
+            Application.Current.SavePropertiesAsync();
+            Console.WriteLine("test2");
+            Console.WriteLine(Application.Current.Properties["myTrashList"]);
+
 
             mainList.Remove(dataItem);
-        
 
-            
+            string jsonValueToSave = JsonConvert.SerializeObject(mainList);
+            Application.Current.Properties.Remove("myList");
+            Application.Current.Properties.Add("myList", jsonValueToSave);
+            Application.Current.SavePropertiesAsync();
+
         }
 
         private void List_ItemTapped(object sender, ItemTappedEventArgs e)

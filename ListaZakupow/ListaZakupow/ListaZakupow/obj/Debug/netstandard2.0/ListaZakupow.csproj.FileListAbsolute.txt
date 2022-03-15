@@ -63,3 +63,4 @@ C:\Users\Admin\Desktop\Nowy folder (3)\ListaZakupow\ListaZakupow\ListaZakupow\ob
 C:\Users\Admin\Desktop\Nowy folder (3)\ListaZakupow\ListaZakupow\ListaZakupow\obj\Debug\netstandard2.0\ListaZakupow.pdb
 C:\Users\Admin\Desktop\Nowy folder (3)\ListaZakupow\ListaZakupow\ListaZakupow\obj\Debug\netstandard2.0\DisplayPromotionPage.xaml.g.cs
 C:\Users\kozak\OneDrive\Pulpit\Nowy folder (3)\ListaZakupow\ListaZakupow\ListaZakupow\obj\Debug\netstandard2.0\DisplayPromotionPage.xaml.g.cs
+C:\Users\Admin\Desktop\Nowy folder (3)\ListaZakupow\ListaZakupow\ListaZakupow\obj\Debug\netstandard2.0\TrashcanPage.xaml.g.cs

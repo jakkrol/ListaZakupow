@@ -31,7 +31,7 @@ namespace ListaZakupow
             {
                 if (obj.nazwa == Add_my_product.Text)
                 {
-                    //napraw --> ilosc sie nie zmienia
+                    
                     obj.ilosc++;
                     return;
                 }
@@ -53,7 +53,7 @@ namespace ListaZakupow
             {
                 if (obj.nazwa == dataItem.nazwa)
                 {
-                    //napraw --> ilosc sie nie zmienia
+                    
                     obj.ilosc++;
                     return;
                 }
