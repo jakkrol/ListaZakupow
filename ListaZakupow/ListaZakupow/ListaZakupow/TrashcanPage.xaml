@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ListaZakupow.TrashcanPage">
+    
+    <StackLayout BackgroundColor="#2a2a2a" Orientation="Vertical" VerticalOptions="Fill">
+
+        <ListView x:Name="TrashList" 
+                      HeightRequest="5000"
+                      HasUnevenRows="True"
+                      BackgroundColor="#525252"
+                      VerticalOptions="FillAndExpand"
+                      >
+            <ListView.ItemTemplate>
+                <DataTemplate>
+
+                    <ViewCell Height="100">
+
+                        <StackLayout Orientation="Vertical" HeightRequest="300">
+
+                            <StackLayout Orientation="Horizontal">
+                                <Label Text="{Binding listName}" FontSize="26"/>
+                                <Button Text="Usuń"
+                                Clicked="Button_Clicked"
+                                CommandParameter="{Binding .}"/>
+
+                                <Button Text="Przywróć"
+                                Clicked="Button_Clicked_1"
+                                CommandParameter="{Binding .}"/>
+
+                            </StackLayout>
+                        </StackLayout>
+
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+    </StackLayout>
+</ContentPage>
