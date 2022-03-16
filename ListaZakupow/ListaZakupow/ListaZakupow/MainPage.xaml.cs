@@ -29,8 +29,6 @@ namespace ListaZakupow
                 //Console.WriteLine(jsonValue);
                 mainList = JsonConvert.DeserializeObject<ObservableCollection<ListObject>>(jsonValue);
                 
-
-                
             }
             
             List.ItemsSource = mainList;

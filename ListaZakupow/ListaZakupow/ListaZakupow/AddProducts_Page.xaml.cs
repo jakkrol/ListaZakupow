@@ -20,10 +20,11 @@ namespace ListaZakupow
             InitializeComponent();
             AllList.ItemsSource = Models.AllProductsList.AllProductList;
 
+            
             this.list = list;
         }
 
-     
+      
         private void AddNewProduct_Clicked(object sender, EventArgs e)
         {
             
@@ -41,7 +42,7 @@ namespace ListaZakupow
             list.ProductList.Add(new Products { nazwa = Add_my_product.Text, ilosc = 1 });
             
        
-            //Navigation.PushAsync(new ProductsList_Page(list));
+            Navigation.PushAsync(new ProductsList_Page(list));
         }
 
         private void AllList_ItemTapped(object sender, ItemTappedEventArgs e)

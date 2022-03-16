@@ -9,7 +9,7 @@ namespace ListaZakupow.Models
         public string nazwa { get; set; }
         public int ilosc { get; set; }
 
-        public bool isChecked { get; set;  }
+        public bool isChecked { get; set; }
 
     }
 }

@@ -64,3 +64,26 @@ C:\Users\Admin\Desktop\Nowy folder (3)\ListaZakupow\ListaZakupow\ListaZakupow\ob
 C:\Users\Admin\Desktop\Nowy folder (3)\ListaZakupow\ListaZakupow\ListaZakupow\obj\Debug\netstandard2.0\DisplayPromotionPage.xaml.g.cs
 C:\Users\kozak\OneDrive\Pulpit\Nowy folder (3)\ListaZakupow\ListaZakupow\ListaZakupow\obj\Debug\netstandard2.0\DisplayPromotionPage.xaml.g.cs
 C:\Users\Admin\Desktop\Nowy folder (3)\ListaZakupow\ListaZakupow\ListaZakupow\obj\Debug\netstandard2.0\TrashcanPage.xaml.g.cs
+C:\projects\ListaZakupow\ListaZakupow\ListaZakupow\bin\Debug\netstandard2.0\ListaZakupow.deps.json
+C:\projects\ListaZakupow\ListaZakupow\ListaZakupow\bin\Debug\netstandard2.0\ListaZakupow.dll
+C:\projects\ListaZakupow\ListaZakupow\ListaZakupow\bin\Debug\netstandard2.0\ref\ListaZakupow.dll
+C:\projects\ListaZakupow\ListaZakupow\ListaZakupow\bin\Debug\netstandard2.0\ListaZakupow.pdb
+C:\projects\ListaZakupow\ListaZakupow\ListaZakupow\obj\Debug\netstandard2.0\ListaZakupow.csproj.AssemblyReference.cache
+C:\projects\ListaZakupow\ListaZakupow\ListaZakupow\obj\Debug\netstandard2.0\ListaZakupow.GeneratedMSBuildEditorConfig.editorconfig
+C:\projects\ListaZakupow\ListaZakupow\ListaZakupow\obj\Debug\netstandard2.0\AddProducts_Page.xaml.g.cs
+C:\projects\ListaZakupow\ListaZakupow\ListaZakupow\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\projects\ListaZakupow\ListaZakupow\ListaZakupow\obj\Debug\netstandard2.0\DisplayPromotionPage.xaml.g.cs
+C:\projects\ListaZakupow\ListaZakupow\ListaZakupow\obj\Debug\netstandard2.0\FlyoutMenuPage.xaml.g.cs
+C:\projects\ListaZakupow\ListaZakupow\ListaZakupow\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\projects\ListaZakupow\ListaZakupow\ListaZakupow\obj\Debug\netstandard2.0\MyNavigationPage.xaml.g.cs
+C:\projects\ListaZakupow\ListaZakupow\ListaZakupow\obj\Debug\netstandard2.0\NewList_Page.xaml.g.cs
+C:\projects\ListaZakupow\ListaZakupow\ListaZakupow\obj\Debug\netstandard2.0\ProductsList_Page.xaml.g.cs
+C:\projects\ListaZakupow\ListaZakupow\ListaZakupow\obj\Debug\netstandard2.0\PromotionsPage.xaml.g.cs
+C:\projects\ListaZakupow\ListaZakupow\ListaZakupow\obj\Debug\netstandard2.0\TrashcanPage.xaml.g.cs
+C:\projects\ListaZakupow\ListaZakupow\ListaZakupow\obj\Debug\netstandard2.0\ListaZakupow.AssemblyInfoInputs.cache
+C:\projects\ListaZakupow\ListaZakupow\ListaZakupow\obj\Debug\netstandard2.0\ListaZakupow.AssemblyInfo.cs
+C:\projects\ListaZakupow\ListaZakupow\ListaZakupow\obj\Debug\netstandard2.0\ListaZakupow.csproj.CoreCompileInputs.cache
+C:\projects\ListaZakupow\ListaZakupow\ListaZakupow\obj\Debug\netstandard2.0\XamlC.stamp
+C:\projects\ListaZakupow\ListaZakupow\ListaZakupow\obj\Debug\netstandard2.0\ListaZakupow.dll
+C:\projects\ListaZakupow\ListaZakupow\ListaZakupow\obj\Debug\netstandard2.0\ref\ListaZakupow.dll
+C:\projects\ListaZakupow\ListaZakupow\ListaZakupow\obj\Debug\netstandard2.0\ListaZakupow.pdb

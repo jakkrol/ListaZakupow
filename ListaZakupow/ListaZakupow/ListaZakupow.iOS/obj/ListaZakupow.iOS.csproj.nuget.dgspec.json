@@ -1,24 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Admin\\Desktop\\Nowy folder (3)\\ListaZakupow\\ListaZakupow\\ListaZakupow.iOS\\ListaZakupow.iOS.csproj": {}
+    "C:\\projects\\ListaZakupow\\ListaZakupow\\ListaZakupow.iOS\\ListaZakupow.iOS.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Admin\\Desktop\\Nowy folder (3)\\ListaZakupow\\ListaZakupow\\ListaZakupow.iOS\\ListaZakupow.iOS.csproj": {
+    "C:\\projects\\ListaZakupow\\ListaZakupow\\ListaZakupow.iOS\\ListaZakupow.iOS.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Admin\\Desktop\\Nowy folder (3)\\ListaZakupow\\ListaZakupow\\ListaZakupow.iOS\\ListaZakupow.iOS.csproj",
+        "projectUniqueName": "C:\\projects\\ListaZakupow\\ListaZakupow\\ListaZakupow.iOS\\ListaZakupow.iOS.csproj",
         "projectName": "ListaZakupow.iOS",
-        "projectPath": "C:\\Users\\Admin\\Desktop\\Nowy folder (3)\\ListaZakupow\\ListaZakupow\\ListaZakupow.iOS\\ListaZakupow.iOS.csproj",
-        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Admin\\Desktop\\Nowy folder (3)\\ListaZakupow\\ListaZakupow\\ListaZakupow.iOS\\obj\\",
+        "projectPath": "C:\\projects\\ListaZakupow\\ListaZakupow\\ListaZakupow.iOS\\ListaZakupow.iOS.csproj",
+        "packagesPath": "C:\\Users\\kozak\\.nuget\\packages\\",
+        "outputPath": "C:\\projects\\ListaZakupow\\ListaZakupow\\ListaZakupow.iOS\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\kozak\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -32,8 +32,8 @@
         "frameworks": {
           "xamarinios10": {
             "projectReferences": {
-              "C:\\Users\\Admin\\Desktop\\Nowy folder (3)\\ListaZakupow\\ListaZakupow\\ListaZakupow\\ListaZakupow.csproj": {
-                "projectPath": "C:\\Users\\Admin\\Desktop\\Nowy folder (3)\\ListaZakupow\\ListaZakupow\\ListaZakupow\\ListaZakupow.csproj"
+              "C:\\projects\\ListaZakupow\\ListaZakupow\\ListaZakupow\\ListaZakupow.csproj": {
+                "projectPath": "C:\\projects\\ListaZakupow\\ListaZakupow\\ListaZakupow\\ListaZakupow.csproj"
               }
             }
           }
@@ -65,20 +65,20 @@
         }
       }
     },
-    "C:\\Users\\Admin\\Desktop\\Nowy folder (3)\\ListaZakupow\\ListaZakupow\\ListaZakupow\\ListaZakupow.csproj": {
+    "C:\\projects\\ListaZakupow\\ListaZakupow\\ListaZakupow\\ListaZakupow.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Admin\\Desktop\\Nowy folder (3)\\ListaZakupow\\ListaZakupow\\ListaZakupow\\ListaZakupow.csproj",
+        "projectUniqueName": "C:\\projects\\ListaZakupow\\ListaZakupow\\ListaZakupow\\ListaZakupow.csproj",
         "projectName": "ListaZakupow",
-        "projectPath": "C:\\Users\\Admin\\Desktop\\Nowy folder (3)\\ListaZakupow\\ListaZakupow\\ListaZakupow\\ListaZakupow.csproj",
-        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Admin\\Desktop\\Nowy folder (3)\\ListaZakupow\\ListaZakupow\\ListaZakupow\\obj\\",
+        "projectPath": "C:\\projects\\ListaZakupow\\ListaZakupow\\ListaZakupow\\ListaZakupow.csproj",
+        "packagesPath": "C:\\Users\\kozak\\.nuget\\packages\\",
+        "outputPath": "C:\\projects\\ListaZakupow\\ListaZakupow\\ListaZakupow\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\kozak\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],

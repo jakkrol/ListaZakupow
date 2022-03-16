@@ -67,7 +67,7 @@ namespace ListaZakupow
         {
             var senderBindingContext = ((Button)sender).BindingContext;
             var dataItem = (ListObject)senderBindingContext;
-
+            
             MainPage.mainList.Add(dataItem);
 
             string jsonToSave = JsonConvert.SerializeObject(MainPage.mainList);
