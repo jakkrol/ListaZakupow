@@ -66,7 +66,7 @@ namespace ListaZakupow
             }
         }
 
-        private async void ProductList_ItemTapped(object sender, ItemTappedEventArgs e)
+        private void ProductList_ItemTapped(object sender, ItemTappedEventArgs e)
         {
             //var senderBindingContext = ((Button)sender).BindingContext;
 
