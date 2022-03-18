@@ -36,9 +36,31 @@ namespace ListaZakupow
         }
 
 
-        private void AddProduct_Clicked(object sender, EventArgs e)
+        private async void AddProduct_Clicked(object sender, EventArgs e)
         {
-            Navigation.PushAsync(new AddProducts_Page(list));
+            //Navigation.PushAsync(new AddProducts_Page(list));
+            string result = await DisplayPromptAsync("Dodaj produkt", "Dodaj", maxLength: 10);
+            
+            if ((result == null) || (result == ""))
+            {
+                return;
+            }
+            else
+            {
+                string result2 = await DisplayPromptAsync("Ile?", "Ile?", initialValue: "1", maxLength: 2, keyboard: Keyboard.Numeric);
+                list.ProductList.Add(new Products { nazwa = result, ilosc = Convert.ToInt16(result2) });
+
+
+                string jsonValueToSave = JsonConvert.SerializeObject(MainPage.mainList);
+                Application.Current.Properties.Remove("myList");
+                Application.Current.Properties.Add("myList", jsonValueToSave);
+                await Application.Current.SavePropertiesAsync();
+                Console.WriteLine("test");
+                Console.WriteLine(Application.Current.Properties["myList"]);
+
+
+                
+            }
         }
 
         private void ProductList_ItemTapped(object sender, ItemTappedEventArgs e)

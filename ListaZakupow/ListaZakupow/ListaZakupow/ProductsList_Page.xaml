@@ -16,6 +16,7 @@
                         <ViewCell Tapped="ViewCell_Tapped">
                             <StackLayout Orientation="Horizontal">
                                 <Label Text="{Binding nazwa}"/>
+                                <Label Text="Ilość:"></Label>
                                 <Label Text="{Binding ilosc}"/>
                                 <CheckBox x:Name="box" IsChecked="{Binding isChecked}" Color="#7CFC00" CheckedChanged="box_CheckedChanged"></CheckBox>
 
