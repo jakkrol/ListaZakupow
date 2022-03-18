@@ -19,7 +19,7 @@
                     <ViewCell>
                         <Grid>
                             <Grid.ColumnDefinitions>
-                                <ColumnDefinition Width="33"/>
+                                <ColumnDefinition Width="200"/>
                                 <ColumnDefinition Width="*"/>
                             </Grid.ColumnDefinitions>
                             <Label Text="{Binding Title}"/>

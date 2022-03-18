@@ -69,28 +69,76 @@ namespace ListaZakupow
             
         }
 
-        private void Button_Clicked(object sender, EventArgs e)
+        private async void Button_Clicked(object sender, EventArgs e)
         {
-            var senderBindingContext = ((Button)sender).BindingContext;
-            var dataItem = (ListObject)senderBindingContext;
+                    var senderBindingContext = ((Button)sender).BindingContext;
+                    var dataItem = (ListObject)senderBindingContext;
 
-            //list.ProductList.Add(new Products { nazwa = dataItem.nazwa, ilosc = 1 });
-            TrashcanPage.trashList.Add(dataItem);
-   
-            string jsonToSave = JsonConvert.SerializeObject(TrashcanPage.trashList);
-            Application.Current.Properties.Remove("myTrashList");
-            Application.Current.Properties.Add("myTrashList", jsonToSave);
-            Application.Current.SavePropertiesAsync();
-            Console.WriteLine("test2");
-            Console.WriteLine(Application.Current.Properties["myTrashList"]);
+               /*     //list.ProductList.Add(new Products { nazwa = dataItem.nazwa, ilosc = 1 });
+                    TrashcanPage.trashList.Add(dataItem);
+
+                    string jsonToSave = JsonConvert.SerializeObject(TrashcanPage.trashList);
+                    Application.Current.Properties.Remove("myTrashList");
+                    Application.Current.Properties.Add("myTrashList", jsonToSave);
+                    Application.Current.SavePropertiesAsync();
+                    Console.WriteLine("test2");
+                    Console.WriteLine(Application.Current.Properties["myTrashList"]);
 
 
-            mainList.Remove(dataItem);
+                    mainList.Remove(dataItem);
+
+                    string jsonValueToSave = JsonConvert.SerializeObject(mainList);
+                    Application.Current.Properties.Remove("myList");
+                    Application.Current.Properties.Add("myList", jsonValueToSave);
+                    Application.Current.SavePropertiesAsync();*/
+
+
+            string res = await DisplayActionSheet("Co chcesz zrobić?", "Anuluj", null, "Modyfikuj", "Usuń");
+            if (res == "Usuń")
+            {
+                TrashcanPage.trashList.Add(dataItem);
+
+                string jsonToSave = JsonConvert.SerializeObject(TrashcanPage.trashList);
+                Application.Current.Properties.Remove("myTrashList");
+                Application.Current.Properties.Add("myTrashList", jsonToSave);
+                await Application.Current.SavePropertiesAsync();
+                Console.WriteLine("test2");
+                Console.WriteLine(Application.Current.Properties["myTrashList"]);
+
+
+                mainList.Remove(dataItem);
+
+            }
+            if (res == "Modyfikuj")
+            {
+                foreach (Models.ListObject obj in mainList)
+                {
+                    if (obj.listName == dataItem.listName)
+                    {
+                        string result = await DisplayPromptAsync("Modyfikuj nazwę", "Modyfikuj", maxLength: 20);
+
+                        if ((result == null) || (result == ""))
+                        {
+                            return;
+                        }
+                        else
+                        {
+                           
+
+                            obj.listName = result;
+                            
+
+                            List.ItemsSource = null;
+                            List.ItemsSource = mainList;
+                        }
+                    }
+                }
+            }
 
             string jsonValueToSave = JsonConvert.SerializeObject(mainList);
             Application.Current.Properties.Remove("myList");
             Application.Current.Properties.Add("myList", jsonValueToSave);
-            Application.Current.SavePropertiesAsync();
+            await Application.Current.SavePropertiesAsync();
 
         }
 

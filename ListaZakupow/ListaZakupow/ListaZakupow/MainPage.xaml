@@ -28,9 +28,9 @@
                                 <Label Text="{Binding CheckedItems}" FontSize="24"/>
                                 <Label Text="/" FontSize="24"/>
                                 <Label Text="{Binding ProductList.Count}" FontSize="24"/>
-                                <Button Text="Usuń listę"
+                                <Button Text="Menu"
                                 Clicked="Button_Clicked"
-                                CommandParameter="{Binding .}"/>
+                                CommandParameter="{Binding .}" HorizontalOptions="End"/>
                                
                             </StackLayout>
                             <ProgressBar x:Name="Progress" ProgressColor="YellowGreen" Progress="{Binding Progress}"/>

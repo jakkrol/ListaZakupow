@@ -47,15 +47,18 @@ namespace ListaZakupow
             }
             else
             {
-                string result2 = await DisplayPromptAsync("Ile?", "Ile?", initialValue: "1", maxLength: 2, keyboard: Keyboard.Numeric);
-                list.ProductList.Add(new Products { nazwa = result, ilosc = Convert.ToInt16(result2) });
-
+                string result2 = await DisplayPromptAsync("Ile?", null, initialValue: "1", maxLength: 2, keyboard: Keyboard.Numeric);
+                if ((result2 == null) || (result2 == ""))
+                {
+                    return;
+                }
+                Console.WriteLine("HERE");
+                list.ProductList.Add(new Products { nazwa = result, ilosc = Convert.ToInt32(result2) });
 
                 string jsonValueToSave = JsonConvert.SerializeObject(MainPage.mainList);
                 Application.Current.Properties.Remove("myList");
                 Application.Current.Properties.Add("myList", jsonValueToSave);
                 await Application.Current.SavePropertiesAsync();
-                Console.WriteLine("test");
                 Console.WriteLine(Application.Current.Properties["myList"]);
 
 
@@ -63,8 +66,11 @@ namespace ListaZakupow
             }
         }
 
-        private void ProductList_ItemTapped(object sender, ItemTappedEventArgs e)
+        private async void ProductList_ItemTapped(object sender, ItemTappedEventArgs e)
         {
+            //var senderBindingContext = ((Button)sender).BindingContext;
+
+
             /*var dataItem = e.Item as Products;
 
 
@@ -121,35 +127,37 @@ namespace ListaZakupow
             //Console.WriteLine(dataItem.nazwa);
 
             
-            foreach (Models.Products obj in list.ProductList)
-            {
-                if (obj.nazwa == dataItem.nazwa)
+                foreach (Models.Products obj in list.ProductList)
                 {
-                    if (obj.isChecked == true)
+                    if (obj.nazwa == dataItem.nazwa)
                     {
-                        Console.WriteLine("true");
-                        list.CheckedItems++;
-                        obj.isChecked = true;
-                        return;
-                        //ProductList.SelectedItem = null;
-                        //ProductList.ItemsSource = null;
-                        //ProductList.ItemsSource = list.ProductList;
+                        if (obj.isChecked == true)
+                        {
+                            Console.WriteLine("true");
+                            list.CheckedItems++;
+                            obj.isChecked = true;
+                            return;
+                            //ProductList.SelectedItem = null;
+                            //ProductList.ItemsSource = null;
+                            //ProductList.ItemsSource = list.ProductList;
+                        }
+                        else
+                        {
+                            Console.WriteLine("false");
+                            list.CheckedItems--;
+                            obj.isChecked = false;
+                            return;
+                            //ProductList.SelectedItem = null;
+                            //ProductList.ItemsSource = null;
+                            //ProductList.ItemsSource = list.ProductList;
+                        }
                     }
-                    else
-                    {
-                        Console.WriteLine("false");
-                        list.CheckedItems--;
-                        obj.isChecked = false;
-                        return;
-                        //ProductList.SelectedItem = null;
-                        //ProductList.ItemsSource = null;
-                        //ProductList.ItemsSource = list.ProductList;
-                    }
-                }
 
-           }
+                }
+            
 
         }
+
 
     }
 }

@@ -10,10 +10,11 @@
             <ListView x:Name="ProductList"
                       ItemTapped="ProductList_ItemTapped"
                       BackgroundColor="#525252"
+                      
                       >
                 <ListView.ItemTemplate>
                     <DataTemplate>
-                        <ViewCell Tapped="ViewCell_Tapped">
+                        <ViewCell Tapped="ViewCell_Tapped" >
                             <StackLayout Orientation="Horizontal">
                                 <Label Text="{Binding nazwa}"/>
                                 <Label Text="Ilość:"></Label>
@@ -21,11 +22,13 @@
                                 <CheckBox x:Name="box" IsChecked="{Binding isChecked}" Color="#7CFC00" CheckedChanged="box_CheckedChanged"></CheckBox>
 
                             </StackLayout>
+                            
+                            
                         </ViewCell>
                     </DataTemplate>
                 </ListView.ItemTemplate>
             </ListView>
-            <AbsoluteLayout>
+            <AbsoluteLayout Margin="10, -10000 ,10, 10">
                 <Button x:Name="AddProduct" BackgroundColor="Blue" Text="+" FontSize="30" TextColor="White" CornerRadius="180" AbsoluteLayout.LayoutBounds="300, 400" HeightRequest="50" WidthRequest="50" Clicked="AddProduct_Clicked"></Button>
             </AbsoluteLayout>
             
